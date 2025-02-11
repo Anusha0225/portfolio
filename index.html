@@ -1,222 +1,224 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <style>
-    * {
-      margin: 0px;
-    }
 
-    .header {
-      display: flex;
-      background-color: rgb(237, 78, 157);
-      justify-content: space-between;
-      height: 70px;
-    }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My portfolio</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<style>
+  * {
+    margin: 0px;
+  }
 
-    .container {
-      background-color: white;
-    }
+  .header {
+    display: flex;
+    background-color: rgb(237, 78, 157);
+    justify-content: space-between;
+    height: 70px;
+  }
 
-    .name {
-      padding-left: 49px;
-      padding-top: 15px;
-    }
+  .container {
+    background-color: white;
+  }
 
-    .links {
-      padding-top: 14px;
-    }
+  .name {
+    padding-left: 49px;
+    padding-top: 15px;
+  }
 
-    #projects,
-    #services,
-    #about,
-    #contact {
-      padding: 40px;
-      padding-top: 20px;
-      margin-bottom: 20px;
-    }
-  </style>
+  .links {
+    padding-top: 29px;
+  }
 
-  <body>
-    <div class="container">
-      <div class="header">
-        <div><h1 class="name">Anusha</h1></div>
-        <div class="links">
-          <ul>
-            <a href="#home">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#services">Services</a>
-            <a href="#about">About</a>
+  #projects,
+  #services,
+  #about,
+  #contact {
+    padding: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
 
-            <a href="#contact">Contact</a>
-          </ul>
-        </div>
+  a:hover  {
+    text-decoration: none;
+  }
+
+</style>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1 class="name">Anusha</h1>
       </div>
+      <div class="links">
+        <ul>
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </ul>
+      </div>
+    </div>
 
-      <div class="row" id="home">
-        <div style="display: flex; margin: 80px">
-          <div
-            class="box"
-            style="
+    <div class="row" id="home">
+      <div style="display: flex; margin: 80px">
+        <div class="box" style="
               display: flex;
               flex-direction: column;
               justify-content: center;
-            "
-          >
-            <h1>Full Stack Developer</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
-              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
-              perferendis assumenda?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
-              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
-              perferendis assumenda?
-            </p>
-            <div>
-              <button style="width: 20%; margin: 50px">Button 1</button>
-              <button style="width: 20%">Button 2</button>
-            </div>
-          </div>
-          <div class="box">
-            <img src="https://th.bing.com/th/id/OIP.5kcW7LWQpIkeflEZvQNmtwHaEC?w=291&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" />
+            ">
+          <h1>Full Stack Developer</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
+            quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
+            perferendis assumenda?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
+            quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
+            perferendis assumenda?
+          </p>
+          <div>
+            <button style="width: 20%; margin: 20px;">Button 1</button>
+            <button style="width: 20%; margin: 20px;">Button 2</button>
           </div>
         </div>
-      </div>
-
-      <div id="projects" class="row" style="background-color:cadetblue">
-        <h1 style="padding: 29px;">Projects</h1>
-        <div style="display: flex;">
-          <div class="box">
-            <h3>Project 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-              <br> 
-              <a href="https://anusha0225.github.io/online-store/" style="color: blue;">Click Here</a>
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Project 2</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-              <br>
-              <a href="https://anusha0225.github.io/My-Bank/" style="color: blue;">Click Here</a>
-            </p>
-            
-          </div>
-
-          <div class="box">
-            <h3>Project 3</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
+        <div class="box">
+          <img src="https://th.bing.com/th/id/OIP.5kcW7LWQpIkeflEZvQNmtwHaEC?w=291&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" />
         </div>
       </div>
-      <div id="services" class="row" style="background-color: rgb(239, 186, 239);">
-        <h1 style="padding: 29px">Services</h1>
-        <div style="display: flex">
-          <div class="box">
-            <h3>Web App Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Mobile App Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Backend Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div id="about" class="row" style="background-color: rgb(244, 116, 65);">
-        <h1 style="padding: 29px">About</h1>
-        <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
-          optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
-          ipsa veniam deserunt asperiores nesciunt at provident itaque
-          cupiditate vel dolor.
-        </h3>
-        <h2>Skills</h2>
-        <h3>Python, HTML, CSS, R</h3>
-        <p>Display the logo of all the technologies you know.</p>
-      </div>
-      <div
-        id="contact"
-        class="row"
-        style="background-color: rgba(218, 216, 242, 0.788)"
-      >
-        <h1 style="padding: 29px">Contact</h1>
-        <div style="display: flex">
-          <div class="box">
-            <h3>Contact Form</h3>
-            <p>
-              <input type="text" placeholder="Enter Name" />
-            </p>
-            <p>
-              <input type="email" placeholder="Enter Email" />
-            </p>
-            <p>
-              <textarea
-                rows="10"
-                cols="60"
-                placeholder="Enter message"
-              ></textarea>
-            </p>
-            <button>Send</button>
-          </div>
-
-          <div class="box" style="padding: 20px;">
-            <h3>Your/Company Name</h3>
-            <p>
-              <b>Address: </b>Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Dolorem quia nobis eligendi reiciendis. Esse a possimus eum
-              est veritatis aliquid ut eveniet. Et illum odio ut voluptates
-              molestiae? Perspiciatis, ab.
-            </p>
-            <p><b>Email Address: </b>anusha02049@gmail.com</p>
-            <p><b>Phone Number: </b>+91 8686xxxxxx32</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer">@copyright 2024. All rights reserved.</div>
     </div>
-  </body>
+
+    <div id="projects" class="row" style="background-color:cadetblue">
+      <h1 style="padding: 29px;">Projects</h1>
+      <div style="display: flex;">
+        <div class="box">
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+            Perspiciatis, ab.
+            <br>
+            <a href="https://anusha0225.github.io/online-store/"
+              style="color: rgb(53, 5, 244); padding-top: 15px; display: flex; padding-left: 10px;">
+              ONLINE STORE
+            </a>
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Project 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+            Perspiciatis, ab.
+            <br>
+            <a href="https://anusha0225.github.io/My-Bank/"
+              style="color: blue;  padding-top: 15px; display: flex; padding-left: 10px; text-decoration: none">
+              MY BANK
+            </a>
+          </p>
+
+        </div>
+
+        <div class="box">
+          <h3>Project 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+            Perspiciatis, ab.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="services" class="row" style="background-color: rgb(239, 186, 239);">
+      <h1 style="padding: 29px">Services</h1>
+      <div style="display: flex">
+        <div class="box">
+          <h3>Web App Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+            Perspiciatis, ab.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Mobile App Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+            Perspiciatis, ab.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Backend Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+            Perspiciatis, ab.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="row" style="background-color: rgb(244, 116, 65);">
+      <h1 style="padding: 29px">About</h1>
+      <h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
+        optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
+        ipsa veniam deserunt asperiores nesciunt at provident itaque
+        cupiditate vel dolor.
+      </h3>
+      <h2>Skills</h2>
+      <h3>Python, HTML, CSS, R</h3>
+      <p>Display the logo of all the technologies you know.</p>
+    </div>
+    <div id="contact" class="row" style="background-color: rgba(218, 216, 242, 0.788)">
+      <h1 style="padding: 29px">Contact</h1>
+      <div style="display: flex">
+        <div class="box">
+          <h3>Contact Form</h3>
+          <p>
+            <input type="text" placeholder="Enter Name" />
+          </p>
+          <p>
+            <input type="email" placeholder="Enter Email" />
+          </p>
+          <p>
+            <textarea rows="10" cols="60" placeholder="Enter message"></textarea>
+          </p>
+          <button>Send</button>
+        </div>
+
+        <div class="box" style="padding: 20px;">
+          <h3>Your/Company Name</h3>
+          <p>
+            <b>Address: </b>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Dolorem quia nobis eligendi reiciendis. Esse a possimus eum
+            est veritatis aliquid ut eveniet. Et illum odio ut voluptates
+            molestiae? Perspiciatis, ab.
+          </p>
+          <p><b>Email Address: </b>anusha02049@gmail.com</p>
+          <p><b>Phone Number: </b>+91 8686xxxxxx32</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">@copyright 2024. All rights reserved.</div>
+  </div>
+</body>
+
 </html>
